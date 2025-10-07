@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Trio - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-store"></i>
+                    <h1>4 Trio</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav-link active">Beranda</a>
+                    <a href="#" class="nav-link">Produk</a>
+                    <a href="#" class="nav-link">Tentang</a>
+                    <a href="#" class="nav-link">Kontak</a>
+                </nav>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Cari produk...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <a href="keranjang.html" class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Selamat Datang di 4 Trio</h2>
+                    <p>Toko online terpercaya dengan produk berkualitas</p>
+                    <button class="btn btn-primary">Belanja Sekarang</button>
+                </div>
+            </section>
+
+            <section class="products">
+                <h2 class="section-title">Produk Unggulan</h2>
+                <div class="product-grid" id="productGrid">
+                    <!-- Produk akan dimuat di sini melalui JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tentang 4 Trio</h3>
+                    <p>Toko online terpercaya sejak 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#">Pengiriman Cepat</a></li>
+                        <li><a href="#">Pembayaran Aman</a></li>
+                        <li><a href="#">Garansi Produk</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-phone"></i> 0812-3456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@4trio.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 4 Trio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
